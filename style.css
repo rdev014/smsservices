@@ -59,17 +59,24 @@ scroll-behavior: smooth;
 }
 
 /* our services section */
-
+.we-offer{
+  display: flex;
+ gap: 16px;
+ text-align: center;
+}
 .our-services{
   background: rgba(0, 0, 128, 0.308);
+  color: white;
   border: 1px solid white;
   border-radius: 12px;
-  padding: 6px;
+  padding: 16px;
   box-sizing: border-box;
+  width: 500px;
+
 }
 .our-services:hover{
   box-shadow: 0px 0px 15px 3px skyblue;
-  background-color: rgba(255, 68, 0, 0.856);
+  background-color: rgba(153, 0, 255, 0.384);
 }
 
 /* hero-section */
@@ -126,6 +133,27 @@ scroll-behavior: smooth;
   box-sizing: border-box;
 
 }
+.circle{
+  animation: circle alternate infinite 1s;
+  background: orange;
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+}
+@keyframes circle{
+  100%{
+    transform: rotateX('360deg');
+    margin-left: 59%;
+    box-shadow: 0px 0px 20px 2px skyblue;
+    background: #000;
+    height: 20px;
+    width: 20px;
+  }
+}
+
+
+
+
 /* hrline */
 .hrline{
   color: white;
@@ -284,7 +312,41 @@ input[type="submit"]:hover {
 	transition: max-height 0.2s ease-out;
 }
 
+/* pricing section */
+.payment-method{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+.extra-offers{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
 
+}
+.pricing-plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  
+}
+.price-card1{
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+.price-card2{
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+.price-card3{
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+}
 
 
 
