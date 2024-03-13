@@ -2,58 +2,99 @@
 
 
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-    .hero-heading{
-        text-align: center;
-        padding: 12px;
-        font-size: 24px;
-        
-      }
-    .hero-image{
-      margin-left: 0px !important;
-     
-    }
-    .dmodel{
-      visibility: hidden;
-    }
-    .section-two-dis{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2px !important;
-    }
-  .about-image{
-     margin-left: 0px;
-    }
-    .about-image-para{
-      margin-left: 0px;
-    }
-    .we-offer{
-      display: flex;
-      flex-wrap: wrap;
-    }
+  body {
+    background-color: lightblue;
   }
-  @media only screen and (max-width: 789px){
-    .hero-image{
-      margin-left: 0px !important;
-     
-    }
-    .we-offer{
-      display: flex !important;
-      flex-wrap: wrap !important;
-      width: auto !important;
-    }
+
+  .hero-heading {
+    text-align: center;
+    padding: 12px;
+    font-size: 24px;
+
   }
-  @media only screen and (max-width: 1200px){
-    .hero-image{
-      margin-left: 0px !important;
-     
-    }
-    .we-offer{
-      display: flex !important;
-      flex-wrap: wrap !important;
-      width: auto !important;
-      text-align: center;
-    }
+
+  .hero-image {
+    margin-left: 0px !important;
+
   }
+
+  .dmodel {
+    visibility: hidden;
+  }
+
+  .section-two-dis {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px !important;
+  }
+
+  .about-image {
+    margin-left: 0px;
+  }
+
+  .about-image-para {
+    margin-left: 0px;
+  }
+
+  .we-offer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .bulk-emails {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .bulkimage {
+    margin-left: 0px;
+  }
+
+  .bulkimg {
+    height: 300px !important;
+  }
+
+  .text-overlay {
+    margin-top: 100px;
+  }
+
+  .textoverylay-text {
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  .highlightline {
+    display: none;
+  }
+
+  .para {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 789px) {
+  .hero-image {
+    margin-left: 0px !important;
+
+  }
+
+  .we-offer {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    width: auto !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-image {
+    margin-left: 0px !important;
+
+  }
+
+  .we-offer {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    width: auto !important;
+    text-align: center;
+  }
+}

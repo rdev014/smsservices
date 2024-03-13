@@ -1,8 +1,9 @@
 a{
     text-decoration: none !important;
     color: white !important;
-    font-weight: 500 ! important;
+    font-weight: 600 ! important;
     cursor: pointer !important;
+    font-size: 22px !important;
 
 }
 p{
@@ -39,14 +40,14 @@ button {
    }
    
    button:hover {
-    color: #e8e8e8;
+    color: white !important;
    }
    
    button:hover::before {
     width: 100%;
    }
    .sub-navbar{
-    margin-top: 90px;
+    margin-top: 80px !important;
     text-align: center;
     background: rgb(4, 4, 122) !important;
     color: white !important;
