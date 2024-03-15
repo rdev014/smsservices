@@ -70,23 +70,38 @@
   .para {
     display: none;
   }
-  .business-des{
+
+  .business-des {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .productivity{
-  flex-wrap: wrap;
+
+  .productivity {
+    flex-wrap: wrap;
   }
-  .promot-sms{
+
+  .promot-sms {
     display: flex;
     flex-wrap: wrap;
   }
-  .cont-para{
+
+  .cont-para {
     color: white;
   }
-  .contact-info{
+
+  .contact-info {
     margin-bottom: 100px;
+  }
+
+  .faq-section {
+    width: 100% !important;
+  }
+  .faq_section{
+    width: 100%;
+  }
+  .accordion{
+    width: 100%;
   }
 }
 
@@ -101,8 +116,17 @@
     flex-wrap: wrap !important;
     width: auto !important;
   }
-  .cont-para{
+
+  .cont-para {
     color: white;
+  }
+  .faq-section {
+    width: 100% !important;
+  }
+  .faq_section{
+    width: 100%;
+  } .accordion{
+    width: 100%;
   }
 }
 
@@ -118,7 +142,16 @@
     width: auto !important;
     text-align: center;
   }
-  .cont-para{
+
+  .cont-para {
     color: white;
+  }
+  .faq-section {
+    width: 100% !important;
+  }
+  .faq_section{
+    width: 100%;
+  } .accordion{
+    width: 100%;
   }
 }
