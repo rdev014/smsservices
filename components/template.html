@@ -38,7 +38,7 @@
     }
 </style>
 
-<body class="component">
+<body>
     <!-- navigation bar -->
     <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -64,8 +64,8 @@
                         <ul class="dropdown-menu px-3 bg-dark">
                             <li><a class="dropdown-item fs-5" href="./sendonline.html">Bulk Emails</a></li>
                             <li><a class="dropdown-item fs-5" href="./smsattach.html">SMS Attachments</a></li>
-                            <li> <a  class="dropdown-item fs-5" href="./template.html">Business SMS/Emails</a></li>
-                            <li> <a  class="dropdown-item fs-5" href="./analyic.html">Promotional SMS/Emails</a></li>
+                            <li> <a class="dropdown-item fs-5" href="./template.html">Business SMS/Emails</a></li>
+                            <li> <a class="dropdown-item fs-5" href="./analyic.html">Promotional SMS/Emails</a></li>
 
                         </ul>
                     </li>
@@ -83,10 +83,68 @@
         </div>
     </nav>
 
-    <!-- subnavbar -->
-    <div class="container-fluid sub-navbar">
-        <h1 class="subnav" style="font-weight: 400; letter-spacing: 2px;">Business SMS/Emails</h1>
-        
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <img src="../images/businessemail.jpg" alt="bulk-image" class="img-fluid bulkimg">
+            </div>
+            <div class="text-overlay">
+                <h3 class="textoverylay-text"> To improve business communication <br> we provide bulk SMS and Email
+                    services.</h3>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid busi-email">
+        <div class="container text-white">
+            <h1 class="text-center py-4 fs-1">Get Email Templates for Business</h1>
+            <div class="text-center mt-5">
+                <button type="button" class="btn btn-danger px-5 py-2 mt-3 mb-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" data-bs-whatever="@mdo">Get Now</button>
+            </div>
+        </div>
+        <div class="modal fade text-white" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content ">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="contactForm">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                            <input type="submit" value="Submit" class="bg-primary">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid business-des mt-4">
+        <div>
+            <img src="../images/businessman.jpg" alt="" class="img-fluid" width="600px" data-aos="zoom-in">
+        </div>
+        <div class="text-white">
+            <h2 class="mt-3">Custom subscription requests</h2>
+            <div class="section-two-items d-flex  gap-2 mt-5 " data-aos="fade-up" data-aos-delay="200">
+                <img src="../images/encrypted.png" alt="logo-img" width="50px" height="50px">
+                <p class="fs-5 mt-2">Data encryption and enterprise-level security.</p>
+            </div>
+            <div class="section-two-items d-flex  gap-2 mt-3" data-aos="fade-up" data-aos-delay="250">
+                <img src="../images/profits.png" alt="logo-img" width="50px" height="50px">
+                <p class="fs-5 mt-3">Fair price no hidden charges. Pay only for what you use.</p>
+            </div>
+            <div class="section-two-items d-flex gap-2 mt-3" data-aos="fade-up" data-aos-delay="300">
+                <img src="../images/call.png" alt="logo-img" width="50px" height="50px">
+                <p class="fs-5 mt-3">24/7 Customer Support Assistance</p>
+            </div>
+        </div>
     </div>
 
 
@@ -95,64 +153,90 @@
 
 
 
-
-
-
-       
     <div class="container bulkdis">
         <div class="row">
             <div class="col-md-5 text-white">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quaerat sequi animi. Iste magnam sint laudantium consequatur neque minima esse!</p>
-             </div>
+                <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quaerat sequi animi. Iste magnam
+                    sint laudantium consequatur neque minima esse!</p>
+            </div>
             <div class="col-md-2">
-                <div class="highlightline">
+                <div class="highlightline" data-aos="fade-down">
                 </div>
                 <p class="para fs-4 rounded-pill">1</p>
             </div>
             <div class="col-md-5 ">
-                <img src="../images/3dbulkimage.jpeg" class="mb-3 img-fluid bg-white p-1 rounded-pill" alt="" width="200px">
+                <img src="../images/3dbulkimage.jpeg" class="mb-3 img-fluid bg-white p-1 rounded-pill" alt=""
+                    width="200px" data-aos="zoom-in">
             </div>
-           
+
             <div class="col-md-5">
-                <img src="../images/bulkimg.jpeg" class="mb-3 img-fluid bg-white p-1 rounded-pill col" alt="" width="200px">
+                <img src="../images/bulkimg.jpeg" class="mb-3 img-fluid bg-white p-1 rounded-pill col" alt=""
+                    width="200px" data-aos="zoom-in" data-aos-delay="200">
             </div>
             <div class="col-md-2">
-                <div class="highlightline">
+                <div class="highlightline " data-aos="fade-down">
                 </div>
                 <p class="para fs-4 rounded-pill">2</p>
             </div>
             <div class="col-md-5 text-white mt-3">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quaerat sequi animi. Iste magnam sint laudantium consequatur neque minima esse!</p>
-             </div>
-          
-             <div class="col-md-5 text-white mt-3">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quaerat sequi animi. Iste magnam sint laudantium consequatur neque minima esse!</p>
-             </div>
+                <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quaerat sequi animi. Iste magnam
+                    sint laudantium consequatur neque minima esse!</p>
+            </div>
+
+            <div class="col-md-5 text-white mt-3">
+                <p data-aos="fade-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quaerat sequi animi. Iste magnam
+                    sint laudantium consequatur neque minima esse!</p>
+            </div>
             <div class="col-md-2">
-                <div class="highlightline">
+                <div class="highlightline" data-aos="fade-down">
                 </div>
                 <p class="para fs-4 rounded-pill">3</p>
             </div>
             <div class="col-md-5 ">
-                <img src="../images/range.png" class="mb-3 img-fluid bg-white p-1 rounded-pill" alt="" width="200px">
+                <img src="../images/range.png" class="mb-3 img-fluid bg-white p-1 rounded-pill" alt="" width="200px" data-aos="zoom-in">
             </div>
+        </div>
+    </div>
+
+
+<!-- productivity increase -->
+<div class="container-fluid productivity mb-4">
+    <div class="mb-5">
+        <img src="../images/linaregraph.jpg" alt="" class="img-fluid rounded p-2" width="600px" data-aos="zoom-in" style="box-shadow: 0px 0px 12px 2px white;">
+    </div>
+    <div class="text-white">
+        <h2>Increase your productivity With us</h2>
+        <div class="section-two-items d-flex  gap-2 mt-4" data-aos="fade-up" data-aos-delay="300">
+            <img src="../images/checkbox.png" alt="logo-img" width="30px" height="30px">
+            <p class="fs-5">Clever, optimized SMS gateway routing system</p>
+        </div>
+        <div class="section-two-items d-flex gap-2 mt-3" data-aos="fade-up" data-aos-delay="350">
+            <img src="../images/checkbox.png" alt="logo-img" width="30px" height="30px">
+            <p class="fs-5">Many telecom providers and direct connectivity</p>
+        </div>
+        <div class="section-two-items d-flex  gap-2 mt-3" data-aos="fade-up" data-aos-delay="380">
+            <img src="../images/checkbox.png" alt="logo-img" width="30px" height="30px">
+            <p class="fs-5">Calable, resilient infrastructure with built-in redundancy</p>
+        </div>
     </div>
 </div>
 
-<div class=" container we-offer">
-    <div class="col-md-4 our-services mb-3" data-aos="fade-down">
-        <img src="../images/call.png" alt="" width="60px" class="mb-3 mt-3">
-        <h3>Customer Support </h3>
-        <p>Providing assistance with technical issues related to email and SMS marketing campaigns.</p>
+
+
+    <div class=" container we-offer">
+        <div class="col-md-4 our-services mb-3" data-aos="fade-down">
+            <img src="../images/call.png" alt="" width="60px" class="mb-3 mt-3">
+            <h3>Customer Support </h3>
+            <p>Providing assistance with technical issues related to email and SMS marketing campaigns.</p>
+        </div>
+        <div class="col-md-4 our-services mb-3" data-aos="fade-up">
+            <img src="../images/api_5230638.png" alt="" width="60px" class="mb-3 mt-3">
+            <h3>API and Integration</h3>
+            <p>Providing APIs for developers to integrate email and SMS functionality into their own
+                applications or systems.</p>
+        </div>
+
     </div>
-    <div class="col-md-4 our-services mb-3" data-aos="fade-up">
-        <img src="../images/api_5230638.png" alt="" width="60px" class="mb-3 mt-3">
-        <h3>API and Integration</h3>
-        <p>Providing APIs for developers to integrate email and SMS functionality into their own
-            applications or systems.</p>
-    </div>
-   
-</div>
 
 
     <!-- footer section -->
@@ -223,8 +307,8 @@
                     </div>
                     <div class="legal-section mt-5">
                         <h4 class="fs-2 mb-3">Legal</h4>
-                        <p class="fs-6"> <img src="../images/encrypted.png" alt="1" class="img-fluid mx-2" width="40px"><a
-                                href="">privacy policies</a></p>
+                        <p class="fs-6"> <img src="../images/encrypted.png" alt="1" class="img-fluid mx-2"
+                                width="40px"><a href="">privacy policies</a></p>
                         <p class="fs-6"> <img src="../images/terms.png" alt="4" class="img-fluid mx-2" width="40px"><a
                                 href="">Terms & Conditions</a></p>
                     </div>

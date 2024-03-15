@@ -358,7 +358,7 @@ input[type="submit"]:hover {
 }
 
 .textoverylay-text {
-  background-color: #00000065;
+  background-color: #00000088;
   font-weight: 700;
   font-size: 64px;
 }
@@ -394,4 +394,22 @@ input[type="submit"]:hover {
   font-size: 22px;
   font-weight: 600;
   padding: 18px;
+}
+.busi-email{
+  background-color: blueviolet;
+}
+.business-des{
+  display: flex;
+  justify-content: space-around;
+}
+.productivity{
+  display: flex;
+  justify-content: space-around;
+}
+.promot-sms{
+  margin-top: 1px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 127, 80, 0.877);
+  padding: 20px;
 }

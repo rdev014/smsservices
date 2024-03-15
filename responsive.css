@@ -70,6 +70,18 @@
   .para {
     display: none;
   }
+  .business-des{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .productivity{
+  flex-wrap: wrap;
+  }
+  .promot-sms{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 @media only screen and (max-width: 789px) {
