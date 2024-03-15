@@ -82,6 +82,11 @@
     display: flex;
     flex-wrap: wrap;
   }
+  .contact-para>p{
+    color: white !important;
+  }.contact-info{
+    margin-bottom: 100px;
+  }
 }
 
 @media only screen and (max-width: 789px) {
