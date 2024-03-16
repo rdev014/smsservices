@@ -380,7 +380,7 @@ input[type="submit"]:hover {
   height: 200px;
   width: 2px;
   background-color: blue;
-  box-shadow: 0px 0px 20px 6px skyblue;
+  box-shadow: 0px 0px 10px 2px skyblue;
   position: relative;
 }
 

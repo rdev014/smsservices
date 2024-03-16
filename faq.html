@@ -174,41 +174,54 @@
     </div>
 
   </div>
- <div class="container mt-3 mb-5">
-  <h2 class="text-white mt-5 mb-3">More Questions</h2>
-  <div class="accordion accordion-flush" id="accordionFlushExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingOne">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-          What kind of customer support options do you offer?
-        </button>
-      </h2>
-      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">We provide multiple channels for customer support, including email, live chat, and phone support, to assist you with any issues or questions you may have. Our support team is dedicated to providing timely and helpful assistance to ensure your success with our service.</div>
+  <div class="container mt-3 mb-5">
+    <h2 class="text-white mt-5 mb-3">More Questions</h2>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            What kind of customer support options do you offer?
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">We provide multiple channels for customer support, including email, live chat, and
+            phone support, to assist you with any issues or questions you may have. Our support team is dedicated to
+            providing timely and helpful assistance to ensure your success with our service.</div>
+        </div>
       </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-          Do you provide insights into email campaign performance?
-        </button>
-      </h2>
-      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">Absolutely! Our platform offers comprehensive analytics to track key metrics such as open rates, click-through rates, conversion rates, and more. You can gain valuable insights into the effectiveness of your campaigns and make data-driven decisions to improve results.</div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Do you provide insights into email campaign performance?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Absolutely! Our platform offers comprehensive analytics to track key metrics such
+            as open rates, click-through rates, conversion rates, and more. You can gain valuable insights into the
+            effectiveness of your campaigns and make data-driven decisions to improve results.</div>
+        </div>
       </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-          How do you handle bounced emails and manage email lists?
-        </button>
-      </h2>
-      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">We automatically handle bounced emails by removing invalid addresses from your list to maintain high deliverability rates. Additionally, our platform offers features for list segmentation, suppression lists, and subscriber management to help you keep your email list clean and up-to-date.</div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            How do you handle bounced emails and manage email lists?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">We automatically handle bounced emails by removing invalid addresses from your
+            list to maintain high deliverability rates. Additionally, our platform offers features for list
+            segmentation, suppression lists, and subscriber management to help you keep your email list clean and
+            up-to-date.</div>
+        </div>
       </div>
     </div>
   </div>
- </div>
 
 
   <!-- footer section -->
@@ -260,7 +273,7 @@
               <p><a href="./contact.html">Contact Us</a></p>
             </li>
             <li>
-              <p><a href="./career.html">Career</a></p>
+              <p><a href="./Services.html">Services</a></p>
             </li>
             <li>
               <p><a href="./faq.html">FAQ</a></p>
@@ -306,22 +319,4 @@
 <script>
   AOS.init();
 </script>
-
-<script>const items = document.querySelectorAll(".accordion button");
-
-  function toggleAccordion() {
-    const itemToggle = this.getAttribute("aria-expanded");
-
-    for (i = 0; i < items.length; i++) {
-      items[i].setAttribute("aria-expanded", "false");
-    }
-
-    if (itemToggle == "false") {
-      this.setAttribute("aria-expanded", "true");
-    }
-  }
-
-  items.forEach((item) => item.addEventListener("click", toggleAccordion));
-</script>
-
 </html>
